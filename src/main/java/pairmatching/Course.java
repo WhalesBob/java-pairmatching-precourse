@@ -19,4 +19,8 @@ public enum Course {
     public static void updateNewStudents(Course course, List<String> studentList){
         course.studentList.addAll(studentList);
     }
+
+    public static String getName(Course course){
+        return course.name;
+    }
 }
