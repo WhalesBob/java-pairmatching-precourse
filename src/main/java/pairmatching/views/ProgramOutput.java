@@ -41,4 +41,8 @@ public class ProgramOutput {
         }
         return missionListOutput.toString();
     }
+    
+    public static void printStatement(String message){
+        System.out.println(message);
+    }
 }
