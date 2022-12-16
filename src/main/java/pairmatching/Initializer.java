@@ -17,6 +17,12 @@ public class Initializer {
         }
     }
 
+    public void initializeLevelAndMissions(){
+        Level.updateNewMissions(Level.LEVEL1,List.of("자동차경주","로또","숫자야구게임"));
+        Level.updateNewMissions(Level.LEVEL2,List.of("장바구니","결제","지하철노선도"));
+        Level.updateNewMissions(Level.LEVEL4,List.of("성능개선","배포"));
+    }
+
     private List<String> uploadStudentList(FileReader file) throws IOException {
         BufferedReader br = new BufferedReader(file);
         List<String> studentList = new ArrayList<>();
