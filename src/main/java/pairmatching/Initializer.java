@@ -1,5 +1,8 @@
 package pairmatching;
 
+import pairmatching.repository.Course;
+import pairmatching.repository.Level;
+
 import java.io.*;
 import java.util.ArrayList;
 import java.util.List;
