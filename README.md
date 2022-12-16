@@ -403,3 +403,7 @@ public class Crew {
    - src/main/resource/backend-crew.md,src/main/resource/frontend-crew.md 를 읽어 와야 한다.
    - 받아오고, 크루들의 이름이 중복되었는지 아닌지 확인해야 한다
    - 백앤드는 백앤드끼리, 프론트앤드는 프론트앤드끼리 List<String> 을 생성해야 한다.
+
+    
+#### 정보 초기화
+- 처음에 코스(프론트앤드, 백앤드), 레벨(1,2,3,4,5레벨), 코스 내용은 enum 으로 구성한다
