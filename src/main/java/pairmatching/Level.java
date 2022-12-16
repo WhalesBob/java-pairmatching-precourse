@@ -21,4 +21,8 @@ public enum Level {
     public static void updateNewMissions(Level level, List<String> missions){
         level.missions.addAll(missions);
     }
+
+    public static List<String> getMissions(Level level){
+        return level.missions;
+    }
 }
